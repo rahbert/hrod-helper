@@ -1,12 +1,15 @@
 {
     "name": "hrod/helper",
+    "type": "library",
     "description": "Helper classes",
+    "keywords": ["helper"],
     "authors": [
         {
             "name": "Robert Patan",
-            "email": "robert.iulian@gmail.com"
+            "email": "patan.robertiulian@gmail.com"
         }
     ],
+    "license": "MIT",
     "minimum-stability": "dev-master",
     "require": {
         "php": "^5.3.3 || ^7.0"

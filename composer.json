@@ -1,0 +1,19 @@
+{
+    "name": "hrod/helper",
+    "description": "Helper classes",
+    "authors": [
+        {
+            "name": "Robert Patan",
+            "email": "robert.iulian@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev-master",
+    "require": {
+        "php": "^5.3.3 || ^7.0"
+    },
+    "autoload": {
+        "psr-0": {
+            "Helper": "src/"
+        }
+    }
+}

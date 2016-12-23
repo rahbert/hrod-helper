@@ -14,6 +14,7 @@ class Helper
     * Concatenates the passed arguments into one string
     * Dynamic number of arguments accepted of type string or numeric
     * !! Note: the 1st argument is the spacer
+     * 
     * @return string
     * @throws Exception
     */
@@ -48,6 +49,7 @@ class Helper
     /**
     * Get date periods based on range ('Day', 'Week', 'Month')
     * Dependacey Carbon class
+     * 
     * @param  string  $start | '20160113'
     * @param  string  $end   | '20160113'
     * @return array
@@ -143,6 +145,7 @@ class Helper
 
     /**
     * Encodes a image into base64 string
+     * 
     * @param string $absolute_path
     * @return string
     */
@@ -199,6 +202,7 @@ class Helper
 
     /**
     * Convert number to their word representation in romanian.
+     * 
     * @param $No
     * @param string $sp
     * @param string $pct
